@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 고르기</title>
+    <script language = "javascript">
+        var imgarray = new Array();
+        imgarray[0] = "양식-0.png";
+        imgarray[1] = "양식-1.png";
+        imgarray[2] = "양식-2.png";
+        imgarray[3] = "양식-3.png";
+        imgarray[4] = "양식-4.png";
+        imgarray[5] = "양식-5.png";
+        imgarray[6] = "양식-6.png";
+        imgarray[7] = "양식-7.png";
+        imgarray[8] = "양식-8.png";
+        function showImage(){
+            var imgNum = Math.round(Math.random()*8); // 자바스크립트의 random은 0~1사이
+            var objImg = document.getElementById("introImg");
+            objImg.src = imgarray[imgNum];
+        }
+
+    </script>
+</head>
+<body onload = "showImage()">
+    <h1 id = "today">오늘의 메뉴는?<br></h1>
+    <img id = "introImg" border ="1" width=80% height=50%><br><br>
+    <a href="third.html">
+        <button type="button" id="button4">다시 고르고 싶으면 눌러!</button>
+    </a>
+    
+   
+    
+</body>
+</html>

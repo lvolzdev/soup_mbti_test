@@ -1,0 +1,51 @@
+body{
+    margin-top: 180px;
+    position: relative;
+    background-color: #fefff1;
+}
+
+#b{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 250px;
+}
+.button1{
+    margin-left: 30%;
+    font-size: large;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}
+.button3{
+    font-size: large;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}
+.why{
+    text-align: center;
+    line-height: 2cm;
+}
+.first{
+    text-align: center;
+    line-height: 0.5cm;
+}
+.button4{
+    text-align: center;
+    margin-left: 40%;
+    font-size: large;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}
+#title_menu{
+    margin-top: 80px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    font-size: larger;
+}
+.button5{
+    margin-left: 43%;
+    font-size: large;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}

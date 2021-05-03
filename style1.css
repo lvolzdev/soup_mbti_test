@@ -1,0 +1,26 @@
+body{
+    background-color: #fefff1;
+}
+#sue{
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+.button3{
+    font-size: large;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}
+#today{
+    margin-top : 50px;
+    text-align : center;
+}
+#introImg{
+    margin-left : 10%;
+}
+#button4{
+    font-size: large;
+    margin-left: 20%;
+    border-width: 0.1cm;
+    border-radius: 5px;
+}
